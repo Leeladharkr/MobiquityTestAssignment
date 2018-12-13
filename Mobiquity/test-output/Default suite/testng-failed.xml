@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestScenarios.CafeTownSendTestCases">
+        <methods>
+          <include name="CreateNewEmployee" invocation-numbers="0"/>
+          <include name="DeleteEmployee" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="UpdateEmployeeDetail" invocation-numbers="0"/>
+          <include name="OpenApplication"/>
+          <include name="readProperty"/>
+        </methods>
+      </class> <!-- TestScenarios.CafeTownSendTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

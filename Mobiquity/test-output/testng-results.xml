@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[-----------Starting a new Chrome Browser Session-------------]]>
+    </line>
+    <line>
+      <![CDATA[-----------Ended Chrome Browser Session-------------]]>
+    </line>
+    <line>
+      <![CDATA[-----------Starting a new Chrome Browser Session-------------]]>
+    </line>
+    <line>
+      <![CDATA[-----------Ended Chrome Browser Session-------------]]>
+    </line>
+    <line>
+      <![CDATA[-----------Starting a new Chrome Browser Session-------------]]>
+    </line>
+    <line>
+      <![CDATA[-----------Ended Chrome Browser Session-------------]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124261" started-at="2018-12-13T08:40:44Z" finished-at="2018-12-13T08:42:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="124261" started-at="2018-12-13T08:40:44Z" finished-at="2018-12-13T08:42:48Z">
+      <class name="TestScenarios.CafeTownSendTestCases">
+        <test-method status="PASS" signature="readProperty()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="readProperty" is-config="true" duration-ms="27" started-at="2018-12-13T08:40:44Z" finished-at="2018-12-13T08:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProperty -->
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="OpenApplication" is-config="true" duration-ms="10438" started-at="2018-12-13T08:40:44Z" finished-at="2018-12-13T08:40:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Starting a new Chrome Browser Session-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="CreateNewEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="CreateNewEmployee" duration-ms="16964" started-at="2018-12-13T08:40:55Z" data-provider="CreateEmployee" finished-at="2018-12-13T08:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-12-05]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Server.Test@Test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="tearDown" is-config="true" duration-ms="992" started-at="2018-12-13T08:41:12Z" finished-at="2018-12-13T08:41:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Ended Chrome Browser Session-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="OpenApplication" is-config="true" duration-ms="12525" started-at="2018-12-13T08:41:13Z" finished-at="2018-12-13T08:41:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Starting a new Chrome Browser Session-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="UpdateEmployeeDetail(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="UpdateEmployeeDetail" duration-ms="27186" started-at="2018-12-13T08:41:26Z" data-provider="CreateEmployee" finished-at="2018-12-13T08:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-12-05]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Server.Test@Test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEmployeeDetail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="tearDown" is-config="true" duration-ms="772" started-at="2018-12-13T08:41:53Z" finished-at="2018-12-13T08:41:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Ended Chrome Browser Session-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="OpenApplication" is-config="true" duration-ms="7676" started-at="2018-12-13T08:41:54Z" finished-at="2018-12-13T08:42:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Starting a new Chrome Browser Session-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="DeleteEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="DeleteEmployee" duration-ms="45800" started-at="2018-12-13T08:42:01Z" data-provider="CreateEmployee" finished-at="2018-12-13T08:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-12-05]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Server.Test@Test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScenarios.CafeTownSendTestCases@598067a5]" name="tearDown" is-config="true" duration-ms="744" started-at="2018-12-13T08:42:47Z" finished-at="2018-12-13T08:42:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------Ended Chrome Browser Session-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScenarios.CafeTownSendTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
