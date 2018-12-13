@@ -10,6 +10,15 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.testng.annotations.DataProvider;
 
+/* ******************************************************
+ * @Author Leeladhar -----------------------
+ * 
+ * This class will create the utilities functions
+ * 
+ * 
+ * *******************************************************
+ */
+
 public class TestUtil 
 {
 	static Workbook book;
@@ -18,7 +27,6 @@ public class TestUtil
 	
 	public static Object[][] getTestData(String sheetName)
 	{
-		System.out.println(TESTDATA_SHEET_PATH);
 		FileInputStream file = null;
 		try
 		{
@@ -45,7 +53,6 @@ public class TestUtil
 			for (int k=0; k < sheet.getRow(0).getLastCellNum(); k++)
 			{
 				data[i][k] = sheet.getRow(i+1).getCell(k).toString();
-				System.out.println(data[i][k]);
 			}
 		}
 		return data;

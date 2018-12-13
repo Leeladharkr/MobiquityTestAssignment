@@ -10,6 +10,15 @@ import org.openqa.selenium.interactions.Actions;
 import BasePackage.driver;
 import junit.framework.Assert;
 
+/* ******************************************************
+ * @Author Leeladhar -----------------------
+ * 
+ * This class will create objects of home page
+ * 
+ * 
+ * *******************************************************
+ */
+
 public class HomePage extends driver
 {
 	By LoggedInUserName = By.id("greetings");

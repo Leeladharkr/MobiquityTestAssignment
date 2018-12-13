@@ -7,6 +7,15 @@ import BasePackage.driver;
 import PageObjects.HomePage;
 import PageObjects.LoginPage;
 
+/* ******************************************************
+ * @Author Leeladhar -----------------------
+ * 
+ * This class will create Application functional libraries which can be reused in any of the classes
+ * 
+ * 
+ * *******************************************************
+ */
+
 public class FunctionLibraries extends driver
 {
 	LoginPage loginPage = new LoginPage();

@@ -1,6 +1,5 @@
 package BasePackage;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -8,15 +7,20 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 
-import Util.TestUtil;
+/* ******************************************************
+ * @Author Leeladhar -----------------------
+ * 
+ * This class will create the WebDriver Instance which will be used across all other classes
+ * 
+ * 
+ * *******************************************************
+ */
 
 public class driver 
 {
@@ -24,6 +28,15 @@ public class driver
 	public static String URL;
 	public static String UserName;
 	public static String Password;
+	
+	/* ******************************************************
+	 * @Author Leeladhar -----------------------
+	 * 
+	 * This method will read the values from the config file which contains the URL and login credentials.
+	 * 
+	 * 
+	 * *******************************************************
+	 */
 	
 	@BeforeClass
 	public void readProperty()
@@ -42,7 +55,6 @@ public class driver
 	        URL = prop.getProperty("URL");
 	        UserName = prop.getProperty("UserName");
 	        Password = prop.getProperty("Password");
-	        System.out.println(URL);
 
 	    } catch (IOException ex) 
 	    {
@@ -62,6 +74,12 @@ public class driver
 	    }
 	}
 
+	/* ******************************************************
+	 * @Author Leeladhar -----------------------
+	 * 
+	 * This method will Launch the chrome browser and loads the url
+	 * *******************************************************
+	 */
 	@BeforeMethod
 	public void OpenApplication()
 	{
@@ -75,7 +93,12 @@ public class driver
 		Assert.assertEquals("CafeTownsend-AngularJS-Rails", driver.getTitle());
 		
 	}
-	
+	/* ******************************************************
+	 * @Author Leeladhar -----------------------
+	 * 
+	 * This method close the WebDriver instance
+	 * *******************************************************
+	 */
 	@AfterMethod
 	public void tearDown()
 	{

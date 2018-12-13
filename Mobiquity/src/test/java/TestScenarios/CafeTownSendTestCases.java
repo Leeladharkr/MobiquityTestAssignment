@@ -10,6 +10,16 @@ import PageObjects.HomePage;
 import PageObjects.LoginPage;
 import Util.TestUtil;
 
+/* ******************************************************
+ * @Author Leeladhar -----------------------
+ * 
+ * This class will create all the tests 
+ * 
+ * 
+ * *******************************************************
+ */
+
+
 public class CafeTownSendTestCases extends driver
 {
 	LoginPage loginPage = new LoginPage();
@@ -62,10 +72,10 @@ public class CafeTownSendTestCases extends driver
 		createEmployee.typeEmployeeLastName(LastName);
 				
 		// Type date
-		createEmployee.typeEmployeeStartDate("2018-12-06");
+		createEmployee.typeEmployeeStartDate(StartDate);
 				
 		// Type email id of the employee
-		createEmployee.typeEmployeeEmailId("server@server.com");
+		createEmployee.typeEmployeeEmailId(EmailID);
 				
 		// Click on add Employee button
 		createEmployee.clickOnUpdateEmployeeDetailButton();
